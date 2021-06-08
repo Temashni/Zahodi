@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      #swiper-logo{
+width: 100%;
+}
+
+#swiper-logo__container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#swiper-slide__logo {
+text-align: center;
+font-size: 18px;
+
+/* Center slide text vertically */
+
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+#slider-slide__logo img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+      .slider-pagination {
+          position: absolute;
+          left: 50%;
+          top: 33%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+
+
+    <div class="swiper-container mySwiper" id="swiper-logo">
+      <div class="swiper-wrapper container" id="swiper-logo__container">
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/brick.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/kriz-slide.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/pc-slide.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/vet-slide.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/int-slide.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/pc-slide.png"></div>
+        <div class="swiper-slide" id="swiper-slide__logo"><img src="images/vet-slide.png"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        autoplay: {
+        delay: 1000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        }
+      });
+    </script>
+  </body>
+</html>
