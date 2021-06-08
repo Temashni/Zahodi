@@ -9,9 +9,10 @@ const autoswiper = new Swiper('.Swiper', {
     spaceBetween: 30,
     autoplay: {
     delay: 1000,
+    disableOnInteraction:false,
     },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true
+      clickable: false
     }
   });
