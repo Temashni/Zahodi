@@ -7,6 +7,7 @@ const autoswiper = new Swiper('.Swiper', {
    var swiper = new Swiper(".mySwiper", {
     slidesPerView: 5,
     spaceBetween: 30,
+    loop:true,
     autoplay: {
     delay: 1000,
     disableOnInteraction:false,
