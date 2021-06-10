@@ -16,21 +16,23 @@
 }
 .header__logo {
   width: 230px;
-  height: 40px;
+  height: 44px;
 }
 .header-menu {
   width: 423px;
   list-style-type: none;
   margin-top: 20px;
+  margin-right: 20px;
 }
 .header-menu__text {
   text-decoration: none;
   color: #595959;
   font-family: "Calibri";
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 18.45px;
   text-transform: uppercase;
+  margin-left: 20px;
 }
 .header-call {
   margin-top: 10px;
@@ -189,7 +191,7 @@
   margin-top: 43px;
 }
 .agency__content-banner {
-  width: 800px;
+  width: 728px;
   height: 337px;
 }
 .agency__content_text {
@@ -217,6 +219,29 @@
 }
 .agency__info {
   margin-top: 27px;
+}
+.agency__info-text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.agency__info-text {
+  width: 180px;
+  font-family: "Arial Narrow";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: 23.19px;
+}
+.agency__info-text:not(:first-child) {
+  margin-top: 10px;
+}
+.agency__info-text-uppercase {
+  color: #080808;
+  font-family: "Arial Narrow - Bold";
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.35px;
+  line-height: 23.19px;
 }
 .agency__info_container {
   width: 237px;
@@ -317,12 +342,12 @@
   height: 20px;
 }
 .agency__info_img {
-  width: 220px;
+  width: 200px;
   height: 235px;
 }
 #brick-img {
-  width: 140px;
-  height: 122px;
+  width: 118px;
+  height: 100px;
 }
 #kriz-img {
   width: 136px;
@@ -349,16 +374,15 @@
   height: 100px;
 }
 #jaso-img {
-  width: 161px;
-  height: 120px;
+  width: 141px;
+  height: 100px;
 }
 #okno-img {
   width: 161px;
   height: 80px;
 }
 #podshipnik-img {
-  width: 161px;
-  height: 130px;
+  width: 60%;
 }
 #dental-img {
   width: 161px;
@@ -377,8 +401,8 @@
   height: 70px;
 }
 #sari-img {
-  width: 136px;
-  height: 130px;
+  width: 106px;
+  height: 100px;
 }
 #geodor-img {
   width: 161px;
@@ -389,8 +413,8 @@
   height: 65px;
 }
 #sun-img {
-  width: 100px;
-  height: 135px;
+  width: 65px;
+  height: 100px;
 }
 #memory-img {
   width: 136px;
@@ -424,7 +448,7 @@
 .footer-info__title {
   color: #000000;
   font-family: "Arial Narrow - Bold";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 21.26px;
   text-transform: uppercase;
@@ -434,7 +458,7 @@
 .footer-info__number {
   color: #000000;
   font-family: "Arial Narrow";
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 18.45px;
   /* Text style for "(8452)  91" */
@@ -445,18 +469,19 @@
 .footer-info__email {
   color: #000000;
   font-family: "Arial Narrow";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   font-style: italic;
   line-height: 18.45px;
   text-decoration: underline;
   /* Text style for "i, nfo@za-" */
   letter-spacing: 0.4px;
+  margin-top: 13px;
 }
 .footer-info__text {
   color: #0a0909;
   font-family: "Arial Narrow - Bold";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   font-style: italic;
   line-height: 18.45px;
@@ -477,7 +502,7 @@
 .footer-menu__text {
   color: #000000;
   font-family: "Arial Narrow - Bold";
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 18.45px;
   text-transform: uppercase;
@@ -507,15 +532,18 @@
 .footer-copyright {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .footer-copyright__text {
   color: #0c0c0c;
   font-family: "Calibri";
   font-size: 12px;
   font-weight: 400;
-  line-height: 20.23px;
   letter-spacing: 0.28px;
   margin-bottom: -6px;
+}
+.footer-copyright__img {
+  width: 70%;
 }
 @font-face {
   font-family: "Arial - Bold Italic MT";
