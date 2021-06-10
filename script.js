@@ -14,5 +14,9 @@ const autoswiper = new Swiper('.Swiper', {
     pagination: {
       el: ".swiper-pagination",
       clickable: false
-    }
+    },
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: false,
+    },
   });
