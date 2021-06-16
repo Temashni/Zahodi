@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 .container {
-  width: 1000px;
+  width: 1280px;
+  margin: 0 auto;
+}
+._agency-container {
+  width: 1232px;
   margin: 0 auto;
 }
 .wrapper {
@@ -19,27 +23,25 @@
   margin-top: 24px;
 }
 .header__logo {
-  width: 230px;
-  height: 44px;
+  width: 302px;
+  height: 54px;
 }
 .header-menu {
-  width: 423px;
+  width: 546px;
   list-style-type: none;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 25px;
 }
 .header-menu__text {
   text-decoration: none;
   color: #595959;
   font-family: "Calibri";
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 18.45px;
   text-transform: uppercase;
-  margin-left: 20px;
 }
 .header-call {
-  margin-top: 10px;
+  margin-top: 15px;
   width: 123px;
 }
 .header-call__number {
@@ -56,13 +58,13 @@
 .header-email {
   color: #666666;
   font-family: "Arial - Bold Italic MT";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 18.45px;
   text-decoration: underline;
   /* Text style for "i, nfo@za-" */
   letter-spacing: 0.31px;
-  margin-top: 20px;
+  margin-top: 27px;
 }
 .header-banner {
   width: 100%;
@@ -79,7 +81,7 @@
 .seo-text {
   color: #333333;
   font-family: "Arial Narrow";
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   line-height: 33.66px;
   text-align: right;
@@ -93,7 +95,7 @@
 .content__title {
   color: #000000;
   font-family: "Myriad Pro - Bold Cond";
-  font-size: 28px;
+  font-size: 39px;
   font-weight: 400;
   line-height: 30.72px;
   text-transform: uppercase;
@@ -104,10 +106,10 @@
   margin-top: 44px;
 }
 .content-list__text1 {
-  width: 246px;
+  width: 323px;
   color: #000000;
   font-family: "Myriad Pro - Bold Cond";
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 400;
   text-transform: uppercase;
   /* Text style for "С, амое ва" */
@@ -118,7 +120,7 @@
   width: 158px;
   color: #333333;
   font-family: "Myriad Pro - Bold Cond";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
@@ -126,13 +128,17 @@
 .content-list__text2._margin:not(:first-child) {
   margin-top: 16px;
 }
+.content .bird-img {
+  width: 174px;
+  height: 138px;
+}
 .content-list__text3 {
-  width: 317px;
+  width: 336px;
   color: #080808;
   font-family: "Arial Narrow";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 23px;
   /* Text style for "П, редлага" */
   letter-spacing: 0.35px;
 }
@@ -142,7 +148,7 @@
 .services__text {
   color: #333333;
   font-family: "Myriad Pro - Bold Cond";
-  font-size: 21px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 27.64px;
   text-decoration: underline;
@@ -177,10 +183,10 @@
   top: 138px;
 }
 .services__logo {
-  width: 740px;
+  width: 936px;
 }
 .services__logo-img {
-  width: 238px;
+  width: 300px;
 }
 .services__container {
   margin-top: 84px;
@@ -195,13 +201,13 @@
   margin-top: 43px;
 }
 .agency__content-banner {
-  width: 728px;
-  height: 337px;
+  width: 919px;
+  height: 433px;
 }
 .agency__content_text {
-  width: 267px;
+  width: 303px;
   font-family: "Arial Narrow";
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: 0.35px;
   line-height: 23.19px;
@@ -216,7 +222,7 @@
 .agency__content_text-uppercase {
   color: #080808;
   font-family: "Arial Narrow - Bold";
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.35px;
   line-height: 23.19px;
@@ -229,15 +235,15 @@
   flex-direction: column;
 }
 .agency__info-text {
-  width: 180px;
+  width: 276px;
   font-family: "Arial Narrow";
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: 0.35px;
   line-height: 23.19px;
 }
 .agency__info-text:not(:first-child) {
-  margin-top: 10px;
+  margin-top: 65px;
 }
 .agency__info-text-uppercase {
   color: #080808;
@@ -248,10 +254,9 @@
   line-height: 23.19px;
 }
 .agency__info_container {
-  width: 237px;
-  height: 237px;
-  background: url("images/fon.png");
-  padding: 28px 0px;
+  width: 300px;
+  height: 300px;
+  background: #000099;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,17 +264,18 @@
 .agency__info_container-text {
   color: #ffffff;
   font-family: "Myriad Pro - Bold Cond";
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 27.09px;
   text-transform: uppercase;
   text-align: center;
   /* Text style for "агентство" */
   letter-spacing: 0.56px;
+  margin-top: 37px;
 }
 .agency__info-address {
   margin-top: 27px;
-  width: 154px;
+  width: 180px;
   display: flex;
   align-items: center;
 }
@@ -284,7 +290,7 @@
 .agency__info-item-text {
   color: #ffffff;
   font-family: "Calibri";
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 400;
   line-height: 18.39px;
@@ -294,14 +300,14 @@
 }
 .agency__info-email {
   margin-top: 27px;
-  width: 159px;
   display: flex;
   align-items: center;
+  margin-right: 45px;
 }
 .agency__info-item__email {
   color: #ffffff;
   font-family: "Calibri";
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 400;
   line-height: 18.39px;
@@ -311,14 +317,14 @@
 }
 .agency__info-sait {
   margin-top: 27px;
-  width: 154px;
   display: flex;
   align-items: center;
+  margin-right: 5px;
 }
 .agency__info-item__site {
   color: #ffffff;
   font-family: "Calibri";
-  font-size: 11px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 400;
   line-height: 18.39px;
@@ -338,16 +344,16 @@
 .agency__info-social-network {
   display: flex;
   justify-content: space-between;
-  width: 100px;
+  width: 139px;
   margin-top: 27px;
 }
 .agency__info-social-network__img {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
 }
 .agency__info_img {
-  width: 200px;
-  height: 235px;
+  width: 219px;
+  height: 284px;
 }
 #brick-img {
   width: 118px;
@@ -452,7 +458,7 @@
 .footer-info__title {
   color: #000000;
   font-family: "Arial Narrow - Bold";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 21.26px;
   text-transform: uppercase;
@@ -462,7 +468,7 @@
 .footer-info__number {
   color: #000000;
   font-family: "Arial Narrow";
-  font-size: 17px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 18.45px;
   /* Text style for "(8452)  91" */
@@ -473,7 +479,7 @@
 .footer-info__email {
   color: #000000;
   font-family: "Arial Narrow";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   font-style: italic;
   line-height: 18.45px;
@@ -485,7 +491,7 @@
 .footer-info__text {
   color: #0a0909;
   font-family: "Arial Narrow - Bold";
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   font-style: italic;
   line-height: 18.45px;
@@ -501,12 +507,12 @@
   list-style-type: none;
 }
 .footer-menu__link:not(:first-child) {
-  margin-top: 5px;
+  margin-top: 6px;
 }
 .footer-menu__text {
   color: #000000;
   font-family: "Arial Narrow - Bold";
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   /* Text style for "что сделан" */
@@ -519,17 +525,17 @@
   align-items: center;
 }
 .footer-social-network__img1 {
-  width: 26px;
-  height: 16px;
+  width: 32px;
+  height: 18px;
 }
 .footer-social-network__img2 {
-  width: 18px;
-  height: 33px;
+  width: 20px;
+  height: 37px;
   margin-top: 25px;
 }
 .footer-social-network__img3 {
-  width: 27px;
-  height: 27px;
+  width: 30px;
+  height: 30px;
   margin-top: 20px;
 }
 .footer-copyright {
@@ -545,10 +551,14 @@
 .footer-copyright__text {
   color: #0c0c0c;
   font-family: "Calibri";
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.28px;
   margin-bottom: -6px;
+}
+.footer-copyright__img {
+  width: 224px;
+  height: 69px;
 }
 .footer-copyright720__text1 {
   color: #0c0c0c;
@@ -581,7 +591,7 @@
 .logo-banner__text {
   opacity: 1;
   fill: #333333;
-  font-family: "Arial Narrow";
+  font-family: "Calibri";
   font-style: italic;
   font-size: 18px;
   margin-top: 66px;
@@ -593,7 +603,7 @@
   margin-top: 22px;
   color: #333333;
   font-family: "Arial Narrow";
-  font-size: 12px;
+  font-size: 13px;
   font-style: italic;
   line-height: 33.66px;
   text-align: right;
@@ -625,7 +635,7 @@
 }
 .content-logo__left-text2 {
   color: #333333;
-  font-family: "Myriad Pro - Bold Cond";
+  font-family: "Calibri - Bold";
   font-style: italic;
   font-size: 18px;
   font-weight: 400;
@@ -644,6 +654,7 @@
 }
 .content-logo__right-text2 {
   font-style: italic;
+  font-family: "Calibri";
 }
 .logo-container {
   margin-top: 67px;
@@ -689,9 +700,9 @@
 }
 .articles__container-title {
   color: #333333;
-  font-family: "Myriad Pro - Bold Cond";
+  font-family: "Calibri - Bold";
   font-style: italic;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
@@ -701,21 +712,21 @@
 }
 .articles__container-title2 {
   color: #333333;
-  font-family: "Myriad Pro - Bold Cond";
+  font-family: "Calibri - Bold";
   font-style: italic;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
   text-decoration: underline;
   text-align: center;
-  margin-top: 14px;
+  margin-top: 11px;
 }
 .articles__container-title3 {
   color: #333333;
-  font-family: "Myriad Pro - Bold Cond";
+  font-family: "Calibri - Bold";
   font-style: italic;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
   text-transform: uppercase;
@@ -736,7 +747,7 @@
   font-family: "Arial Narrow";
   font-size: 16px;
   text-align: center;
-  margin-top: 18px;
+  margin-top: 6px;
 }
 .articles__container-text3 {
   color: #000000;
@@ -752,7 +763,7 @@
 }
 .articles__container-img3 {
   width: 220px;
-  height: 54px;
+  height: 70px;
   margin-top: 20px;
 }
 .articles__container-img4 {
@@ -783,4 +794,8 @@
 @font-face {
   font-family: "Calibri";
   src: url("fonts/Calibri.ttf");
+}
+@font-face {
+  font-family: "Calibri - Bold";
+  src: url("fonts/Calibri - Bold.ttf");
 }
