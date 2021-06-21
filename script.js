@@ -21,3 +21,5 @@ const autoswiper = new Swiper('.Swiper', {
       draggable: false,
     },
   });
+
+  
