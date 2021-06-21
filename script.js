@@ -22,4 +22,4 @@ const autoswiper = new Swiper('.Swiper', {
     },
   });
 
-  
+  function displ(ddd) { if (document.getElementById(ddd).style.display == 'none') {document.getElementById(ddd).style.display = 'block'} else {document.getElementById(ddd).style.display = 'none'} }
