@@ -540,7 +540,7 @@
   align-items: center;
 }
 .label-images__image1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/limpopo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/limpopo.png");
 }
 .label-images__image-text {
   color: #ffffff;
@@ -559,7 +559,7 @@
   padding: 189px 106px;
 }
 .label-images__image2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/french-press.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/french-press.png");
 }
 .label-images__image-text1 {
   width: 451px;
@@ -583,7 +583,7 @@
   padding: 220px 101px;
 }
 .label-images__image3:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kriz-img.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kriz-img.png");
 }
 .label-images__image4 {
   background-image: url("images/pensils.png");
@@ -593,7 +593,7 @@
   padding: 220px 111px;
 }
 .label-images__image4:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/pensils.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pensils.png");
 }
 .label-images__image-text2 {
   width: 505px;
@@ -616,7 +616,7 @@
   padding: 220px 111px;
 }
 .label-images__image5:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/pl.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pl.jpg");
 }
 .label-images__image6 {
   background-image: url("images/pva.png");
@@ -626,7 +626,7 @@
   padding: 220px 111px;
 }
 .label-images__image6:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/pva.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pva.png");
 }
 .label-images__image7 {
   background-image: url("images/clean-fast.jpg");
@@ -636,7 +636,7 @@
   padding: 220px 111px;
 }
 .label-images__image7:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/clean-fast.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/clean-fast.jpg");
 }
 .label-images__image8 {
   background-image: url("images/avita.png");
@@ -648,7 +648,7 @@
   justify-content: center;
 }
 .label-images__image8:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/avita.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/avita.png");
 }
 .label-images__image9 {
   background-image: url("images/abc-box.png");
@@ -660,7 +660,7 @@
   justify-content: center;
 }
 .label-images__image9:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/abc-box.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/abc-box.png");
 }
 .label-images__image-text3 {
   margin-left: 95px;
