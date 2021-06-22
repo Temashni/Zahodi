@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 .wrapper {
-  width: 1288px;
+  width: 1280px;
   margin: 0 auto;
 }
 ._flex-container {
@@ -437,6 +437,30 @@
 #byket-img {
   width: 161px;
   height: 46px;
+}
+.dropbutton1 {
+  margin-top: 20px;
+}
+.dropbutton2 {
+  margin-top: 20px;
+}
+.dropbtn {
+  width: 200px;
+  padding: 12px 0px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #d1d1d1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.dropbtn:hover {
+  color: #ffffff;
+  transition: 0.3s;
 }
 .footer {
   margin-top: 122px;
