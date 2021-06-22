@@ -584,19 +584,6 @@
 .label-images__image3:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/kriz-img.png");
 }
-.label-images__image-text1 {
-  width: 505px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Arial Narrow - Bold";
-  text-transform: uppercase;
-  text-decoration: underline;
-  display: none;
-  line-height: 30px;
-}
-.label-images__image-text1:not(:first-child) {
-  margin-top: 70px;
-}
 .label-images__image4 {
   background-image: url("images/pensils.png");
   width: 618px;
@@ -630,19 +617,6 @@
 .label-images__image5:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/pl.jpg");
 }
-.label-images__image-text2 {
-  width: 505px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Arial Narrow - Bold";
-  text-transform: uppercase;
-  text-decoration: underline;
-  display: none;
-  line-height: 30px;
-}
-.label-images__image-text2:not(:first-child) {
-  margin-top: 70px;
-}
 .label-images__image6 {
   background-image: url("images/pva.png");
   width: 618px;
@@ -653,19 +627,6 @@
 .label-images__image6:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/pva.png");
 }
-.label-images__image-text2 {
-  width: 505px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Arial Narrow - Bold";
-  text-transform: uppercase;
-  text-decoration: underline;
-  display: none;
-  line-height: 30px;
-}
-.label-images__image-text2:not(:first-child) {
-  margin-top: 70px;
-}
 .label-images__image7 {
   background-image: url("images/clean-fast.jpg");
   width: 618px;
@@ -675,19 +636,6 @@
 }
 .label-images__image7:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/clean-fast.jpg");
-}
-.label-images__image-text2 {
-  width: 505px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Arial Narrow - Bold";
-  text-transform: uppercase;
-  text-decoration: underline;
-  display: none;
-  line-height: 30px;
-}
-.label-images__image-text2:not(:first-child) {
-  margin-top: 70px;
 }
 .label-images__image8 {
   background-image: url("images/avita.png");
@@ -700,19 +648,6 @@
 }
 .label-images__image8:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/avita.png");
-}
-.label-images__image-text2 {
-  width: 505px;
-  color: #ffffff;
-  font-size: 18px;
-  font-family: "Arial Narrow - Bold";
-  text-transform: uppercase;
-  text-decoration: underline;
-  display: none;
-  line-height: 30px;
-}
-.label-images__image-text2:not(:first-child) {
-  margin-top: 70px;
 }
 .label-images__image9 {
   background-image: url("images/abc-box.png");
