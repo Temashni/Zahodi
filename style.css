@@ -573,6 +573,7 @@
 }
 .label-images__image-text1:not(:first-child) {
   margin-top: 70px;
+  text-decoration: none;
 }
 .label-images__image3 {
   background-image: url("images/kriz-img.png");
@@ -667,11 +668,21 @@
   font-size: 18px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
-  text-decoration: underline;
   display: none;
   line-height: 30px;
 }
 .label-images__image-text3:not(:first-child) {
+  margin-top: 70px;
+}
+.label-images__image-text4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Arial Narrow - Bold";
+  text-transform: uppercase;
+  display: none;
+  line-height: 30px;
+}
+.label-images__image-text4:not(:first-child) {
   margin-top: 70px;
 }
 .label-images__image10 {
@@ -683,10 +694,10 @@
 .label-images__image1:hover .label-images__image-text {
   display: block;
 }
-.label-images__image2:hover .label-images__image-text1 {
+.label-images__image2:hover .label-images__image-text2 {
   display: block;
 }
-.label-images__image3:hover .label-images__image-text1 {
+.label-images__image3:hover .label-images__image-text2 {
   display: block;
 }
 .label-images__image4:hover .label-images__image-text2 {
@@ -701,7 +712,7 @@
 .label-images__image7:hover .label-images__image-text1 {
   display: block;
 }
-.label-images__image8:hover .label-images__image-text {
+.label-images__image8:hover .label-images__image-text4 {
   display: block;
 }
 .label-images__image9:hover .label-images__image-text3 {
