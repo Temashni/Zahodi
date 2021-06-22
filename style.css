@@ -544,7 +544,7 @@
 }
 .label-images__image-text {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
   text-decoration: underline;
@@ -564,7 +564,7 @@
 .label-images__image-text1 {
   width: 451px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
   text-decoration: underline;
@@ -598,7 +598,7 @@
 .label-images__image-text2 {
   width: 505px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
   text-decoration: underline;
@@ -665,7 +665,7 @@
 .label-images__image-text3 {
   margin-left: 95px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
   display: none;
@@ -676,7 +676,7 @@
 }
 .label-images__image-text4 {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Arial Narrow - Bold";
   text-transform: uppercase;
   display: none;
