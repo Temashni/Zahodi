@@ -780,11 +780,15 @@
   width: 631px;
 }
 .french-press__logos-forms:not(:first-child) {
-  margin-top: 30px;
+  margin-top: 21px;
 }
 .french-press__logos-forms__image {
-  width: 309px;
-  height: 309px;
+  width: 305px;
+  height: 305px;
+}
+.french-press__logos-forms__image1 {
+  width: 306px;
+  height: 322px;
 }
 .french-press__label {
   margin-top: 120px;
