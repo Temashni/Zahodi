@@ -15,6 +15,10 @@
   width: 1280px;
   margin: 0 auto;
 }
+._text-bold {
+  font-family: "Arial Narrow - Bold";
+  font-size: 18px;
+}
 ._flex-container {
   display: flex;
   justify-content: space-between;
@@ -718,6 +722,124 @@
 .label-images__image9:hover .label-images__image-text3 {
   display: block;
 }
+.french-press {
+  margin-top: 70px;
+}
+.french-press__title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 30.72px;
+  text-transform: uppercase;
+  letter-spacing: 0.76px;
+}
+.french-press__content {
+  margin-top: 70px;
+}
+.french-press__content-left {
+  padding: 0px 58px;
+}
+.french-press__content-left_img {
+  width: 380px;
+  height: 303px;
+}
+.french-press__content-right {
+  width: 632px;
+}
+.french-press__content-right_title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+}
+.french-press__content-right_text {
+  margin-top: 35px;
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  line-height: 24px;
+}
+.french-press_examples-logo {
+  margin-top: 50px;
+}
+.french-press_example-images:not(:first-child) {
+  margin-top: 20px;
+}
+.french-press_example-images__image {
+  width: 631px;
+  height: 631px;
+}
+.french-press__grid {
+  display: flex;
+  flex-direction: column;
+}
+.french-press__logos-forms {
+  width: 631px;
+}
+.french-press__logos-forms:not(:first-child) {
+  margin-top: 30px;
+}
+.french-press__logos-forms__image {
+  width: 309px;
+  height: 309px;
+}
+.french-press__label {
+  margin-top: 120px;
+}
+.french-press__label-left {
+  display: flex;
+  flex-direction: column;
+}
+.french-press__label-left__title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+}
+.french-press__label-left__title:not(:first-child) {
+  margin-top: 30px;
+}
+.french-press__label-left__text {
+  margin-top: 30px;
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  line-height: 27px;
+}
+.french-press__label-left_images {
+  margin-top: 45px;
+}
+.french-press__label-left_images-image1 {
+  width: 306px;
+  height: 306px;
+}
+.french-press__label-left_images-image2 {
+  width: 300px;
+  height: 300px;
+}
+.french-press__label-right__image {
+  width: 650px;
+  height: 690px;
+}
+.french-press__link {
+  margin-top: 85px;
+}
+.french-press__link-text {
+  color: #0000CC;
+  text-decoration: none;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 21px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.underlain {
+  text-decoration: underline;
+}
 .footer {
   margin-top: 122px;
   background: #d1d1d1;
@@ -875,6 +997,10 @@
   font-style: italic;
   font-size: 18px;
   margin-top: 66px;
+}
+.logo-banner__text:not(:first-child) {
+  margin-top: 20px;
+  font-style: normal;
 }
 .logo-banner__page-text {
   font-family: "Arial Narrow - Bold";
