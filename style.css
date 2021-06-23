@@ -742,7 +742,7 @@
 }
 .french-press__content-left_img {
   width: 380px;
-  height: 303px;
+  height: 340px;
 }
 .french-press__content-right {
   width: 632px;
@@ -1002,15 +1002,19 @@
   font-size: 18px;
   margin-top: 66px;
 }
-.logo-banner__text:not(:first-child) {
-  margin-top: 20px;
+.logo-banner__text1 {
+  opacity: 1;
+  fill: #333333;
+  font-family: "Calibri";
   font-style: normal;
+  font-size: 18px;
+  margin-top: 20px;
 }
 .logo-banner__page-text {
   font-family: "Arial Narrow - Bold";
 }
 .seo-title {
-  margin-top: 22px;
+  margin-top: 32px;
   color: #333333;
   font-family: "Arial Narrow";
   font-size: 13px;
