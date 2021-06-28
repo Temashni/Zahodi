@@ -1087,6 +1087,78 @@
   width: 631px;
   height: 631px;
 }
+.geodor {
+  margin-top: 75px;
+}
+.geodor__title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 30.72px;
+  text-transform: uppercase;
+  letter-spacing: 0.76px;
+}
+.geodor__content {
+  margin-top: 70px;
+}
+.geodor__content-left {
+  padding: 0 110px;
+}
+.geodor__content-left_img {
+  width: 326px;
+  height: 287px;
+  margin-top: 58px;
+}
+.geodor__content-right {
+  width: 632px;
+}
+.geodor__content-right_title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+}
+.geodor__content-right_text {
+  margin-top: 35px;
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  line-height: 24px;
+}
+.geodor-images {
+  margin-top: 50px;
+}
+.geodor-logo {
+  margin-top: 20px;
+}
+.geodor-logo__images:not(:first-child) {
+  margin-top: 20px;
+}
+.geodor-logo__images__image1 {
+  width: 649px;
+  height: 534px;
+}
+.geodor-logo__images__image {
+  width: 631px;
+  height: 590px;
+}
+.geodor-logo__images-container {
+  display: flex;
+  flex-direction: column;
+}
+.geodor-logo__images-text {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 33.89px;
+  margin-left: 25px;
+}
 .footer {
   margin-top: 122px;
   background: #d1d1d1;
@@ -1252,6 +1324,15 @@
   font-style: normal;
   font-size: 18px;
   margin-top: 20px;
+}
+.logo-banner__text2 {
+  opacity: 1;
+  fill: #333333;
+  font-family: "Calibri";
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 30px;
 }
 .logo-banner__page-text {
   font-family: "Arial Narrow - Bold";
