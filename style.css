@@ -19,6 +19,11 @@
   font-family: "Arial Narrow - Bold";
   font-size: 18px;
 }
+._text-bold-italic {
+  font-family: "Arial Narrow - Bold";
+  font-size: 18px;
+  font-style: italic;
+}
 ._flex-container {
   display: flex;
   justify-content: space-between;
@@ -1127,6 +1132,177 @@
   font-family: "Arial Narrow";
   font-size: 18px;
   line-height: 24px;
+}
+.common {
+  margin-top: 60px;
+}
+.common__title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 30.72px;
+  text-transform: uppercase;
+  letter-spacing: 0.76px;
+}
+.common-wrapper {
+  margin-top: 50px;
+}
+.common-content_left__bold-text1 {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+}
+.common-content_left__text {
+  margin-top: 30px;
+  color: #000000;
+  font-family: "Myriad Pro - Cond";
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 46px;
+}
+.common-content_left__bold-text2 {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+  margin-top: 30px;
+}
+.common-content_left__bold-text3 {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+  margin-top: 15px;
+}
+.common-content_right__text {
+  font-family: "Arial Narrow";
+  width: 615px;
+  font-size: 18px;
+  line-height: 29px;
+}
+.common-content_right__text:not(:first-child) {
+  margin-top: 36px;
+}
+.common-container {
+  margin-top: 70px;
+}
+.common-images:not(:first-child) {
+  margin-top: 25px;
+}
+.common-images__image1 {
+  background-image: url("images/common-2.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 245px 106px;
+}
+.common-images__image1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-2.png");
+}
+.common-images__image-text1 {
+  width: 451px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Arial Narrow - Bold";
+  text-transform: uppercase;
+  display: none;
+  line-height: 30px;
+}
+.common-images__image-text1:not(:first-child) {
+  margin-top: 40px;
+  text-decoration: underline;
+}
+.common-images__image2 {
+  background-image: url("images/common-3.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 245px 126px;
+}
+.common-images__image2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-3.png");
+}
+.common-images__image3 {
+  background-image: url("images/common-4.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 245px 106px;
+}
+.common-images__image3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-4.png");
+}
+.common-images__image4 {
+  background-image: url("images/common-5.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 250px 126px;
+}
+.common-images__image4:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-5.png");
+}
+.common-images__image-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Arial Narrow - Bold";
+  text-transform: uppercase;
+  display: none;
+  line-height: 30px;
+}
+.common-images__image-text:not(:first-child) {
+  margin-top: 20px;
+  text-decoration: underline;
+}
+.common-images__image5 {
+  background-image: url("images/common-6.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 220px 111px;
+}
+.common-images__image5:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-6.png");
+}
+.common-images__image6 {
+  background-image: url("images/common-7.png");
+  width: 618px;
+  height: 618px;
+  background-size: cover;
+  padding: 220px 111px;
+}
+.common-images__image6:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/common-7.png");
+}
+.common-images__image1:hover .common-images__image-text1 {
+  display: block;
+}
+.common-images__image2:hover .common-images__image-text1 {
+  display: block;
+}
+.common-images__image3:hover .common-images__image-text1 {
+  display: block;
+}
+.common-images__image4:hover .common-images__image-text {
+  display: block;
+}
+.common-images__image5:hover .common-images__image-text1 {
+  display: block;
+}
+.common-images__image6:hover .common-images__image-text1 {
+  display: block;
 }
 .geodor-images {
   margin-top: 50px;

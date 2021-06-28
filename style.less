@@ -24,6 +24,12 @@
     font-size: 18px;
 }
 
+._text-bold-italic {
+    font-family: "Arial Narrow - Bold";
+    font-size: 18px;
+    font-style: italic;
+}
+
 ._flex-container {
     display: flex;
     justify-content: space-between;
@@ -1399,6 +1405,222 @@
         line-height: 24px;
     }
 }
+
+.common {
+    margin-top: 60px;
+
+    &__title {
+    color: #000000;
+    font-family: "Myriad Pro - Bold Cond";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 30.72px;
+    text-transform: uppercase;
+    letter-spacing: 0.76px;
+    }
+}
+
+.common-wrapper {
+    margin-top: 50px;
+}
+
+.common-content_left {
+
+
+    &__bold-text1 {
+        color: #000000;
+        font-family: "Myriad Pro - Bold Cond";
+        font-size: 19px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        line-height: 31.89px;
+    }
+
+    &__text {
+        margin-top: 30px;
+
+        color: #000000;
+        font-family: "Myriad Pro - Cond";
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        line-height: 46px;
+    }
+
+    &__bold-text2 {
+        color: #000000;
+        font-family: "Myriad Pro - Bold Cond";
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        line-height: 31.89px;
+
+        margin-top: 30px;
+    }
+
+    &__bold-text3 {
+        color: #000000;
+        font-family: "Myriad Pro - Bold Cond";
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        line-height: 31.89px;
+
+        margin-top: 15px;
+    }
+}
+
+.common-content_right {
+
+    &__text {
+        font-family: "Arial Narrow";
+        width: 615px;
+        font-size: 18px;
+        line-height: 29px;
+
+        &:not(:first-child) {
+            margin-top: 36px;
+        }
+    }
+}
+
+.common-container {
+    margin-top: 70px;
+}
+
+.common-images {
+
+    &:not(:first-child) {
+        margin-top: 25px;
+    }
+
+    &__image1 {
+        background-image: url("images/common-2.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 245px 106px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-2.png");
+        }
+    }
+
+    &__image-text1 {
+        width: 451px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Arial Narrow - Bold";
+        text-transform: uppercase;
+        display: none;
+        line-height: 30px;
+
+        &:not(:first-child) {
+            margin-top: 40px;
+            text-decoration: underline;
+        }
+    }
+    &__image2 {
+        background-image: url("images/common-3.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 245px 126px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-3.png");
+        }
+    }
+
+    &__image3 {
+        background-image: url("images/common-4.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 245px 106px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-4.png");
+        }
+    }
+
+    &__image4 {
+        background-image: url("images/common-5.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 250px 126px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-5.png");
+        }
+    }
+
+    &__image-text {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Arial Narrow - Bold";
+        text-transform: uppercase;
+        display: none;
+        line-height: 30px;
+
+        &:not(:first-child) {
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+    }
+    
+    &__image5 {
+        background-image: url("images/common-6.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 220px 111px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-6.png");
+        }
+    }
+
+    &__image6 {
+        background-image: url("images/common-7.png");
+        width: 618px;
+        height: 618px;
+        background-size: cover;
+        padding: 220px 111px;
+        
+        &:hover {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/common-7.png");
+        }
+    }
+}    
+
+.common-images__image1:hover .common-images__image-text1 {
+    display: block;
+}
+
+.common-images__image2:hover .common-images__image-text1 {
+    display: block;
+}
+.common-images__image3:hover .common-images__image-text1 {
+    display: block;
+}
+
+.common-images__image4:hover .common-images__image-text {
+    display: block;
+}
+
+.common-images__image5:hover .common-images__image-text1 {
+    display: block;
+}
+
+.common-images__image6:hover .common-images__image-text1 {
+    display: block;
+}
+
 
 .geodor-images {
     margin-top: 50px;
