@@ -1606,6 +1606,81 @@
   text-decoration: underline;
   font-style: italic;
 }
+.volga-agro {
+  margin-top: 75px;
+}
+.volga-agro__title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 30.72px;
+  text-transform: uppercase;
+  letter-spacing: 0.76px;
+}
+.volga-agro__content {
+  margin-top: 70px;
+}
+.volga-agro__content-left {
+  padding: 7px 58px;
+}
+.volga-agro__content-left_img {
+  width: 460px;
+  height: 382px;
+}
+.volga-agro__content-right {
+  width: 632px;
+}
+.volga-agro__content-right_title {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 31.89px;
+}
+.volga-agro__content-right_text {
+  margin-top: 35px;
+  font-family: "Arial Narrow";
+  font-size: 18px;
+  line-height: 24px;
+}
+.volga-agro-images {
+  margin-top: 50px;
+}
+.volga-agro-image {
+  margin-top: 20px;
+  height: 624px;
+}
+.volga-agro-container {
+  margin-top: 50px;
+}
+.volga-agro-logo__images:not(:first-child) {
+  margin-top: 20px;
+}
+.volga-agro-logo__images__image1 {
+  width: 649px;
+  height: 534px;
+}
+.volga-agro-logo__images__image {
+  width: 631px;
+  height: 590px;
+}
+.volga-agro-logo__images-container {
+  display: flex;
+  flex-direction: column;
+}
+.volga-agro-logo__images-text {
+  color: #000000;
+  font-family: "Myriad Pro - Bold Cond";
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  line-height: 33.89px;
+  margin-left: 25px;
+}
 .footer {
   margin-top: 122px;
   background: #d1d1d1;
